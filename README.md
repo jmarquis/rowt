@@ -1,6 +1,5 @@
 rowt is a Javascript route parsing utility for use in browsers and node environments.
 
----
 
 # Install
 
@@ -14,7 +13,6 @@ For browsers:
 
 `bower install rowt --save`
 
----
 
 # Use
 
@@ -49,17 +47,16 @@ route.fill({ optionalParam: 456 });
 
     // Route constructor becomes global
     var route = new Route("/path/to/something/:param/:optionalParam");
-    
+
     // do all the same stuff
     route.match("/path/to/something/123");
     // === { param: 123, optionalParam: undefined }
-    
+
     // etc...
 
 </script>
 ```
 
----
 
 # Future
 
