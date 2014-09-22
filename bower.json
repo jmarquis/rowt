@@ -1,0 +1,25 @@
+{
+  "name": "rowt",
+  "version": "0.1.0",
+  "authors": [
+    "Jeremy Marquis <jeremy@jeremymarquis.com>"
+  ],
+  "description": "A Javascript route parser for node & browsers.",
+  "keywords": [
+    "route",
+    "parse",
+    "parser",
+    "router",
+    "parameters",
+    "params"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/jmarquis/rowt",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
