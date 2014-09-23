@@ -1,6 +1,6 @@
 {
   "name": "rowt",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A Javascript route parser for node + browsers.",
   "repository": {
     "type": "git",
