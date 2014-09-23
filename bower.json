@@ -4,6 +4,7 @@
   "authors": [
     "Jeremy Marquis <jeremy@jeremymarquis.com>"
   ],
+  "main": "rowt.js",
   "description": "A Javascript route parser for node & browsers.",
   "keywords": [
     "route",
