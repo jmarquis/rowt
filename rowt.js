@@ -59,7 +59,7 @@ Route.prototype.fill = function (params) {
 
 };
 
-if (typeof window === "undefined") module.exports = {
+if (typeof module === "object" && typeof window === "undefined") module.exports = {
 	Route: Route,
 	route: function (url) {
 		return new Route(url);
