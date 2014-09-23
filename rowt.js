@@ -42,6 +42,7 @@ Route.prototype.match = function (url) {
 
 Route.prototype.fill = function (params) {
 
+	if (!params) params = {};
 	var failure = false;
 	var compiledUrl = this.url.replace(/\/:([^\/]+)/g, function (match, paramName) {
 		var required = paramName.charAt(paramName.length - 1) !== "?";
